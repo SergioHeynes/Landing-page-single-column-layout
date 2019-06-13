@@ -1,0 +1,19 @@
+@mixin atMedium {
+    @media (min-width: #{$tablet-width}) {
+      @content;
+    }
+  }
+  
+@mixin atLarge {
+    @media (min-width: #{$desktop-width}) {
+        @content;
+    }
+}
+
+@mixin clearfix {
+  &::after {
+      content: '';
+      clear: both;
+      display: table;
+  }
+}

@@ -1,0 +1,30 @@
+.main {
+    text-align: center;
+
+    &--t-margin {
+        margin-top: 250px;
+    }
+
+    &__title {
+        font-size: 2.9rem;
+        font-family: $fontHeadings;
+        font-weight: 700;
+        line-height: 1.5;
+        margin-top: 0;
+    }
+
+    &__text-content {
+        font-size: 1.49rem;
+        font-family: $fontBody;
+        color: $grayishBlue;
+        line-height: 1.5;
+        max-width: 780px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    &__illustration-image {
+        margin-top: 5rem;
+    }
+
+}

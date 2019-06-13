@@ -1,0 +1,15 @@
+.wrapper {
+    padding-left: 40px;
+    padding-right: 40px;
+
+    @include atMedium {
+        padding-left: 80px;
+        padding-right: 80px;
+
+        &--large {
+            padding-left: 130px;
+            padding-right: 130px;
+        }
+
+    }
+}
