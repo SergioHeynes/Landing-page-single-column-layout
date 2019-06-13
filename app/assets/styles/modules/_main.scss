@@ -1,30 +1,47 @@
 .main {
     text-align: center;
 
-    &--t-margin {
-        margin-top: 250px;
+    &--t-padding {
+        padding-top: 125px;
+
+        @include atMedium {
+            padding-top: 250px;
+        }
     }
 
     &__title {
-        font-size: 2.9rem;
+        font-size: 1.66rem;
         font-family: $fontHeadings;
         font-weight: 700;
         line-height: 1.5;
         margin-top: 0;
+
+        @include atMedium {
+            font-size: 2.9rem;
+        }
+
     }
 
     &__text-content {
-        font-size: 1.49rem;
+        font-size: .88rem;
         font-family: $fontBody;
         color: $grayishBlue;
         line-height: 1.5;
         max-width: 780px;
         margin-left: auto;
         margin-right: auto;
+
+        @include atMedium {
+            font-size: 1.49rem;
+        }
     }
 
     &__illustration-image {
-        margin-top: 5rem;
+        padding-top: 2.5rem;
+
+        @include atMedium {
+            padding-top: 5rem;
+        }
     }
 
 }

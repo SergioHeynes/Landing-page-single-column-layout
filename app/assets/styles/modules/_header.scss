@@ -1,7 +1,11 @@
 .header {
 
     &__image-logo {
-        width: 20%;
+        width: 45%;
+
+        @include atMedium {
+            width: 20%;
+        }
     }
 
 }

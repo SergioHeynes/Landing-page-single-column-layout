@@ -1,0 +1,12 @@
+.site-footer {
+    background-color: $veryDarkCyan;
+    color:white;
+
+    &--t-margin {
+        margin-top: 130px;
+
+        @include atMedium {
+            margin-top: 260px;
+        }
+    }
+}

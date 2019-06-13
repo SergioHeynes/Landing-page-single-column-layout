@@ -1,3 +1,7 @@
 .page-section {
-    margin-top: 80px;
+    padding-top: 40px;
+
+    @include atMedium {
+        padding-top: 80px;
+    }
 }
