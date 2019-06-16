@@ -7,8 +7,11 @@
         line-height: 1.5;
 
         @include tablet {
+            font-size: 3.5rem;
+        }
+
+        @include desktop {
             font-size: 4.5rem;
-            font-weight: 700;
         }
     }
 
@@ -17,16 +20,26 @@
         display: block;
         width: 100%;
         border: 1px solid #eee;
-        color: #eee;
+        color: $color-dark-cyan;
         border-radius: .6rem;
         font-family: $font-body;
+        font-size: 1.4rem;
 
         @include tablet {
-            display: inline-block;
-            max-width: 52rem;
-            margin-right: 5rem;
             padding: 2.4rem 7.5rem;
             box-shadow: 0 .5rem 1rem rgba(#eee, .8);
+            font-size: 1.5rem;
+            width: 60%;
+            display: inline-block;
+            margin-right: 3rem;
+        }
+
+        @include desktop {
+            max-width: 52rem;
+
+            padding: 2.4rem 7.5rem;
+            box-shadow: 0 .5rem 1rem rgba(#eee, .8);
+            margin-right: 3rem;
         }
     }
 }

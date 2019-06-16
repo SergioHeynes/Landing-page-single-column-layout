@@ -4,8 +4,12 @@
         width: 11rem;
 
         @include tablet {
-            width: 24.7rem;
+            width: 19rem;
         }
 
+        @include desktop {
+            width: 25rem;
+        }
+        
     }
 }

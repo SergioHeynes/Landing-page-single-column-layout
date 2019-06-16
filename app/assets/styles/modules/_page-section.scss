@@ -2,6 +2,10 @@
     margin-bottom: 11rem;
 
     @include tablet {
+        margin-bottom: 16rem;
+    }
+
+    @include desktop {
         margin-bottom: 23.7rem;
     }
 

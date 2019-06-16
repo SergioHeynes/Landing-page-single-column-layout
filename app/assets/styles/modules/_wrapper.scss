@@ -3,6 +3,11 @@
     padding-right: 3rem;
 
     @include tablet {
+        padding-left: 6rem;
+        padding-right: 6rem;
+    }
+
+    @include desktop {
         padding-left: 8rem;
         padding-right: 8rem;
     }
@@ -14,6 +19,11 @@
     &--big {
 
         @include tablet {
+            padding-left: 11rem;
+            padding-right: 11rem;
+        }
+
+        @include desktop {
             padding-left: 22rem;
             padding-right: 22rem;
         }
