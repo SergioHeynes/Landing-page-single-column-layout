@@ -1,14 +1,21 @@
 .wrapper {
-    padding-left: 40px;
-    padding-right: 40px;
+    padding-left: 3rem;
+    padding-right: 3rem;
 
-    @include atMedium {
-        padding-left: 80px;
-        padding-right: 80px;
+    @include tablet {
+        padding-left: 8rem;
+        padding-right: 8rem;
+    }
 
-        &--large {
-            padding-left: 130px;
-            padding-right: 130px;
+    .wrapper {
+        padding: 0;
+    }
+
+    &--big {
+
+        @include tablet {
+            padding-left: 22rem;
+            padding-right: 22rem;
         }
 
     }

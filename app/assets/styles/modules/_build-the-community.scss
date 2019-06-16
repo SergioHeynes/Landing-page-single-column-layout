@@ -1,0 +1,24 @@
+.build-the-community {
+    text-align: center;
+
+    &__title {
+        font-size: 2.7rem;
+        font-weight: 700;
+        line-height: 1.5;
+
+        @include tablet {
+            font-size: 4.5rem;
+            font-weight: 700;
+        }
+    }
+
+    &__paragraph {
+        font-size: 1.4rem;
+        color: $color-grayish-blue;
+        line-height: 1.5;
+
+        @include tablet {
+            font-size: 2.6rem;
+        }
+    }
+}

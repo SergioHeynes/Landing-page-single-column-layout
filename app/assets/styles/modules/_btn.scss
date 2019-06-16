@@ -1,10 +1,10 @@
 .btn {
-    padding: 15px 75px;
-    width: 100%;
+    padding: 1.5rem 7.5rem;
     display: block;
+    width: 100%;
     border: none;
-    border-radius: 6px;
-    font-family: $fontBody;
+    border-radius: .6rem;
+    font-family: $font-body;
     color: white;
     font-weight: 600;
     background: rgba(255,127,208,1);
@@ -15,14 +15,15 @@
     background: -ms-linear-gradient(top, rgba(255,127,208,1) 0%, rgba(255,115,206,1) 28%, rgba(255,94,199,1) 51%, rgba(255,82,192,1) 71%, rgba(255,82,191,1) 100%);
     background: linear-gradient(to bottom, rgba(255,127,208,1) 0%, rgba(255,115,206,1) 28%, rgba(255,94,199,1) 51%, rgba(255,82,192,1) 71%, rgba(255,82,191,1) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff7fd0', endColorstr='#ff52bf', GradientType=0 );
+    box-shadow: 0 .5rem 1rem rgba(#eee, .8);
 
-    @include atMedium {
-        padding: 25px 75px;
+    @include tablet {
+        padding: 2.5rem 7.5rem;
         display: inline-block;
         width: auto;
     }
 
     &--t-margin {
-        margin-top: 25px;
+        margin-top: 2.5rem;
     }
 }

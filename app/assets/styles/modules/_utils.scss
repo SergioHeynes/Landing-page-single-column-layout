@@ -1,0 +1,19 @@
+.utils {
+
+    &--t-margin {
+        margin-top: 7rem;
+    }
+    
+    &--l-b-r-padding {
+        padding-bottom: 2rem;
+
+        @include tablet {
+            padding-left: 6rem;
+            padding-right: 6rem;
+        }
+    }
+
+    &--b-margin {
+        margin-bottom: 2rem;
+    }
+}

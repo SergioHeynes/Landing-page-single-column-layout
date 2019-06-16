@@ -1,14 +1,17 @@
 /* apply a natural box layout model to all elements, but allowing components to change */
-html {
-    box-sizing: border-box;
-  }
-
-*, *:before, *:after {
+*, 
+*:before, 
+*:after {
     box-sizing: inherit;
 }
 
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
 body {
-  font-family: $fontBody;
+  font-family: $font-body;
 }
 
 img {

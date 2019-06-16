@@ -1,9 +1,13 @@
-$pink: hsl(322, 100%, 66%);
-$veryDarkCyan: hsl(192, 100%, 9%);
-$grayishBlue: hsl(208, 11%, 55%);
+$color-pink: hsl(322, 100%, 66%);
+$color-dark-cyan: hsl(192, 100%, 9%);
+$color-grayish-blue: hsl(208, 11%, 55%);
 
-$fontHeadings: 'Poppins', sans-serif;
-$fontBody: 'Open Sans', sans-serif;
+$font-headings: 'Poppins', sans-serif;
+$font-body: 'Open Sans', sans-serif;
 
 $tablet-width: 768px;
-$desktop-width: 1024px;
+$desktop-width: 102.4px;
+
+$grid-width: 114rem;
+$gutter-vertical: 3rem;
+$gutter-horizontal: 6rem;

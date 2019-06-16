@@ -1,11 +1,11 @@
 .header {
 
-    &__image-logo {
-        width: 45%;
+    &__logo {
+        width: 11rem;
 
-        @include atMedium {
-            width: 20%;
+        @include tablet {
+            width: 24.7rem;
         }
-    }
 
+    }
 }
