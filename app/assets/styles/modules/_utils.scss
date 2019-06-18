@@ -21,4 +21,24 @@
     &--b-margin {
         margin-bottom: 2rem;
     }
+    
+    &--b-margin-big {
+        margin-bottom: 4rem;
+
+    }
+
+    &--t-b-padding {
+        padding-top: 6rem;
+        padding-bottom: 6rem;
+        
+        @include tablet {
+            padding-top: 9rem;
+            padding-bottom: 4rem;
+        }
+    }
+
+
+    &--text-align-r {
+        text-align: right;
+    }
 }

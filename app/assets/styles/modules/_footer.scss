@@ -1,0 +1,78 @@
+.footer {
+    background-color: $color-dark-cyan;
+    color: #FFF;
+    position: relative;
+
+    @include tablet {
+        
+    }
+
+    &__logo {
+        width: 24rem;
+    }
+
+    &__nav-social-media {
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+    
+        li {
+            display: inline-block;
+            margin-right: 2rem;
+            font-size: 3.4rem;
+        }
+
+    }
+
+    &__nav-information {
+
+        @include tablet {
+            text-align: right;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+
+        }
+    
+        li {
+            font-size: 1.4rem;
+             
+            &:not(:last-child) {
+                margin-bottom: 1.5rem;
+            }
+
+            @include tablet {
+                display: inline-block;
+
+                font-weight: 300;
+
+                &:not(:last-child) {
+                    margin-right: 2rem;
+                }
+            }
+
+            @include desktop {
+                font-size: 2rem;
+
+                &:not(:last-child) {
+                    margin-right: 4.5rem;
+                }
+            }
+        }
+    }
+
+    &__copy-right {
+        text-align: center;
+
+        @include tablet {
+            text-align: right;
+            font-size: 1.5rem;
+            font-weight: 300;
+        }
+    }
+
+}

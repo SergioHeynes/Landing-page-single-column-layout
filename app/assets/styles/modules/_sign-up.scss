@@ -24,6 +24,7 @@
         border-radius: .6rem;
         font-family: $font-body;
         font-size: 1.4rem;
+        box-shadow: 0 .5rem 1rem rgba(#eee, .8);
 
         @include tablet {
             padding: 2.4rem 7.5rem;
