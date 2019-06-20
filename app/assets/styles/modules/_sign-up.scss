@@ -1,5 +1,7 @@
 .sign-up {
     text-align: center;
+    animation: fade-slide-up 1.5s .2s ease-out forwards;
+    opacity: 0;
 
     &__title {
         font-size: 2rem;

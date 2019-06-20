@@ -403,18 +403,18 @@ template {
 [hidden] {
   display: none; }
 
-@-webkit-keyframes fade-slide-down {
+@-webkit-keyframes fade-slide-up {
   0% {
     opacity: 0;
-    transform: translateY(-4rem); }
+    transform: translateY(3rem); }
   100% {
     opacity: 1;
     transform: none; } }
 
-@keyframes fade-slide-down {
+@keyframes fade-slide-up {
   0% {
     opacity: 0;
-    transform: translateY(-4rem); }
+    transform: translateY(3rem); }
   100% {
     opacity: 1;
     transform: none; } }
@@ -555,6 +555,13 @@ img {
   background: linear-gradient(to bottom, #ff7fd0 0%, #ff73ce 28%, #ff5ec7 51%, #ff52c0 71%, #ff52bf 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff7fd0', endColorstr='#ff52bf', GradientType=0 );
   box-shadow: 0 0.5rem 1rem rgba(238, 238, 238, 0.8); }
+  .btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+    cursor: pointer; }
+  .btn:active {
+    transform: translateY(-1px);
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2); }
   @media (min-width: 768px) {
     .btn {
       padding: 2.5rem 7.5rem;
@@ -564,17 +571,24 @@ img {
   .btn--t-margin {
     margin-top: 2.5rem; }
 
-.header__logo {
-  width: 11rem; }
-  @media (min-width: 768px) {
-    .header__logo {
-      width: 19rem; } }
-  @media (min-width: 1024px) {
-    .header__logo {
-      width: 25rem; } }
+.header {
+  -webkit-animation: fade-slide-up 1.2s .2s ease-out forwards;
+          animation: fade-slide-up 1.2s .2s ease-out forwards;
+  opacity: 0; }
+  .header__logo {
+    width: 11rem; }
+    @media (min-width: 768px) {
+      .header__logo {
+        width: 19rem; } }
+    @media (min-width: 1024px) {
+      .header__logo {
+        width: 25rem; } }
 
 .build-the-community {
-  text-align: center; }
+  text-align: center;
+  -webkit-animation: fade-slide-up 1.5s .2s ease-out forwards;
+          animation: fade-slide-up 1.5s .2s ease-out forwards;
+  opacity: 0; }
   .build-the-community__title {
     font-size: 2.7rem;
     font-weight: 700;
@@ -597,7 +611,10 @@ img {
         font-size: 2.6rem; } }
 
 .sign-up {
-  text-align: center; }
+  text-align: center;
+  -webkit-animation: fade-slide-up 1.5s .2s ease-out forwards;
+          animation: fade-slide-up 1.5s .2s ease-out forwards;
+  opacity: 0; }
   .sign-up__title {
     font-size: 2rem;
     font-weight: 700;

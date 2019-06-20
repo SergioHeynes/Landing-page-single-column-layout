@@ -1,4 +1,6 @@
 .header {
+    animation: fade-slide-up 1.2s .2s ease-out forwards;
+    opacity: 0;
 
     &__logo {
         width: 11rem;
